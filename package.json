@@ -1,6 +1,6 @@
 {
   "name": "wildsoft-server-sdk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Server SDK for authentication and authorization",
   "main": "dist/sdk.js",
   "types": "dist/sdk.d.ts",
