@@ -5,7 +5,7 @@ interface SDKOptions {
 }
 
 const init = (options: SDKOptions) => {
-  const app = express();
+  const app = options.app;
 
   // 미들웨어 설정
   app.use(express.json()); // JSON 요청 본문 파싱
