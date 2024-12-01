@@ -7,9 +7,6 @@ interface SDKOptions {
 const init = (options: SDKOptions) => {
   const app = options.app;
 
-  // 미들웨어 설정
-  app.use(express.json()); // JSON 요청 본문 파싱
-
   // 기본 라우트 설정 (예시)
   app.get("/ws", (req: Request, res: Response) => {
     res.send("Hello, SDK is initialized!");
